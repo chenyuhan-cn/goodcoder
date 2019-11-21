@@ -5,11 +5,13 @@
 #ifndef PARSER_BUILD_IN_H
 #define PARSER_BUILD_IN_H
 #include "user_interface.h"
+#include "user_type.h"
 #include <cstdio>
 #include <cstring>
 #include <vector>
 #include <iostream>
 #include <string>
+
 namespace parser {
     bool parser_colume(const char *str, int *result);
 
@@ -18,7 +20,7 @@ namespace parser {
     bool parser_colume(const char *str, float *result);
 
     bool parser_colume(const char *str, std::string *result);
-
+    bool parser_colume(const char *str, MyType *result);
     template<class T>
     bool parser_colume(const char *str, std::vector<T> *result) {
         bool ret = true;

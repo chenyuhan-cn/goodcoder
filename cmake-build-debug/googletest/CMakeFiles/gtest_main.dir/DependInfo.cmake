@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cyh/CLionProjects/parser/googletest/src/gtest_main.cc" "/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/Users/chenyuhan03/code/goodcoder/googletest/src/gtest_main.cc" "/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

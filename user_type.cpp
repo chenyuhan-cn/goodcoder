@@ -9,39 +9,39 @@ namespace parser {
         sex = t_sex;
         age = t_age;
     }
-    bool MyType::parser_colume(const char *str) {
-        bool ret = true;
-        if (str == NULL) {
-            ret = false;
-        } else {
-            char *t_name = new char[15];
-            const char *tmp_str = str;
-            if (sscanf(tmp_str, "%s", t_name) != 1) {
-                ret = false;
-                return ret;
-            }
-            while (*tmp_str != ' ') {
-                tmp_str++;
-            }
-            tmp_str++;
-            char *t_sex = new char[10];
-            if (sscanf(tmp_str, "%s", t_sex) != 1) {
-                ret = false;
-                return ret;
-            }
-            while (*tmp_str != ' ') {
-                tmp_str++;
-            }
-            tmp_str++;
-            int t_age;
-            if (sscanf(tmp_str, "%d", &t_age) != 1) {
-                ret = false;
-                return ret;
-            }
-            if (ret) {
-                set_val(t_name, t_sex, t_age);
-            }
-        }
-        return ret;
-    }
+//    bool MyType::parser_colume(const char *str) {
+//        bool ret = true;
+//        if (str == NULL) {
+//            ret = false;
+//        } else {
+//            char *t_name = new char[15];
+//            const char *tmp_str = str;
+//            if (sscanf(tmp_str, "%s", t_name) != 1) {
+//                ret = false;
+//                return ret;
+//            }
+//            while (*tmp_str != ' ') {
+//                tmp_str++;
+//            }
+//            tmp_str++;
+//            char *t_sex = new char[10];
+//            if (sscanf(tmp_str, "%s", t_sex) != 1) {
+//                ret = false;
+//                return ret;
+//            }
+//            while (*tmp_str != ' ') {
+//                tmp_str++;
+//            }
+//            tmp_str++;
+//            int t_age;
+//            if (sscanf(tmp_str, "%d", &t_age) != 1) {
+//                ret = false;
+//                return ret;
+//            }
+//            if (ret) {
+//                set_val(t_name, t_sex, t_age);
+//            }
+//        }
+//        return ret;
+//    }
 }

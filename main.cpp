@@ -56,6 +56,11 @@ TEST_F(TestParser, test_float_vector) {
     fvec.clear();
     EXPECT_TRUE(parser_test->get_colume(5, &fvec));
 }
+TEST_F(TestParser, test_user_type) {
+    parser::MyType my_type;
+    EXPECT_TRUE(parser_test->get_colume(6, &my_type));
+    EXPECT_TRUE(parser_test->get_colume(5, &my_type));
+}
 TEST_F(TestParser, test_final){
     std::string s;
     EXPECT_EQ(parser_test->get_colume(0, &s),true);
@@ -75,8 +80,8 @@ TEST_F(TestParser, test_final){
     std::vector<float> fvec;
     EXPECT_EQ(parser_test->get_colume(5, &fvec),true);
 
-    parser::MyType my_type{};
-    EXPECT_EQ(my_type.parser_colume(parser_test->colume[6]), true);
+    parser::MyType my_type;
+    EXPECT_EQ(parser_test->get_colume(6, &my_type), true);
 
     printf("string类型：\n");
     std::cout<<s<<std::endl<<std::endl;
@@ -114,7 +119,6 @@ TEST_F(TestParser, test_final){
 
 int main(int argc, char**argv)
 {
-
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }

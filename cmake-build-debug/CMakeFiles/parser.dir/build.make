@@ -34,95 +34,111 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cyh/下载/CLion-2019.2.5/clion-2019.2.5/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/cyh/下载/CLion-2019.2.5/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyh/CLionProjects/parser
+CMAKE_SOURCE_DIR = /Users/chenyuhan03/code/goodcoder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyh/CLionProjects/parser/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chenyuhan03/code/goodcoder/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/parser.dir/depend.make
+include CMakeFiles/Parser.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/parser.dir/progress.make
+include CMakeFiles/Parser.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/parser.dir/flags.make
+include CMakeFiles/Parser.dir/flags.make
 
-CMakeFiles/parser.dir/main.cpp.o: CMakeFiles/parser.dir/flags.make
-CMakeFiles/parser.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/parser.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/main.cpp.o -c /home/cyh/CLionProjects/parser/main.cpp
+CMakeFiles/Parser.dir/build_in.cpp.o: CMakeFiles/Parser.dir/flags.make
+CMakeFiles/Parser.dir/build_in.cpp.o: ../build_in.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenyuhan03/code/goodcoder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Parser.dir/build_in.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parser.dir/build_in.cpp.o -c /Users/chenyuhan03/code/goodcoder/build_in.cpp
 
-CMakeFiles/parser.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyh/CLionProjects/parser/main.cpp > CMakeFiles/parser.dir/main.cpp.i
+CMakeFiles/Parser.dir/build_in.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parser.dir/build_in.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenyuhan03/code/goodcoder/build_in.cpp > CMakeFiles/Parser.dir/build_in.cpp.i
 
-CMakeFiles/parser.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyh/CLionProjects/parser/main.cpp -o CMakeFiles/parser.dir/main.cpp.s
+CMakeFiles/Parser.dir/build_in.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parser.dir/build_in.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenyuhan03/code/goodcoder/build_in.cpp -o CMakeFiles/Parser.dir/build_in.cpp.s
 
-CMakeFiles/parser.dir/build_in.cpp.o: CMakeFiles/parser.dir/flags.make
-CMakeFiles/parser.dir/build_in.cpp.o: ../build_in.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/parser.dir/build_in.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/build_in.cpp.o -c /home/cyh/CLionProjects/parser/build_in.cpp
+CMakeFiles/Parser.dir/parser.cpp.o: CMakeFiles/Parser.dir/flags.make
+CMakeFiles/Parser.dir/parser.cpp.o: ../parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenyuhan03/code/goodcoder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Parser.dir/parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parser.dir/parser.cpp.o -c /Users/chenyuhan03/code/goodcoder/parser.cpp
 
-CMakeFiles/parser.dir/build_in.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/build_in.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyh/CLionProjects/parser/build_in.cpp > CMakeFiles/parser.dir/build_in.cpp.i
+CMakeFiles/Parser.dir/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parser.dir/parser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenyuhan03/code/goodcoder/parser.cpp > CMakeFiles/Parser.dir/parser.cpp.i
 
-CMakeFiles/parser.dir/build_in.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/build_in.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyh/CLionProjects/parser/build_in.cpp -o CMakeFiles/parser.dir/build_in.cpp.s
+CMakeFiles/Parser.dir/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parser.dir/parser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenyuhan03/code/goodcoder/parser.cpp -o CMakeFiles/Parser.dir/parser.cpp.s
 
-CMakeFiles/parser.dir/parser.cpp.o: CMakeFiles/parser.dir/flags.make
-CMakeFiles/parser.dir/parser.cpp.o: ../parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/parser.dir/parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parser.cpp.o -c /home/cyh/CLionProjects/parser/parser.cpp
+CMakeFiles/Parser.dir/user_type.cpp.o: CMakeFiles/Parser.dir/flags.make
+CMakeFiles/Parser.dir/user_type.cpp.o: ../user_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenyuhan03/code/goodcoder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Parser.dir/user_type.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parser.dir/user_type.cpp.o -c /Users/chenyuhan03/code/goodcoder/user_type.cpp
 
-CMakeFiles/parser.dir/parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyh/CLionProjects/parser/parser.cpp > CMakeFiles/parser.dir/parser.cpp.i
+CMakeFiles/Parser.dir/user_type.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parser.dir/user_type.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenyuhan03/code/goodcoder/user_type.cpp > CMakeFiles/Parser.dir/user_type.cpp.i
 
-CMakeFiles/parser.dir/parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyh/CLionProjects/parser/parser.cpp -o CMakeFiles/parser.dir/parser.cpp.s
+CMakeFiles/Parser.dir/user_type.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parser.dir/user_type.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenyuhan03/code/goodcoder/user_type.cpp -o CMakeFiles/Parser.dir/user_type.cpp.s
 
-# Object files for target parser
-parser_OBJECTS = \
-"CMakeFiles/parser.dir/main.cpp.o" \
-"CMakeFiles/parser.dir/build_in.cpp.o" \
-"CMakeFiles/parser.dir/parser.cpp.o"
+CMakeFiles/Parser.dir/main.cpp.o: CMakeFiles/Parser.dir/flags.make
+CMakeFiles/Parser.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenyuhan03/code/goodcoder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Parser.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parser.dir/main.cpp.o -c /Users/chenyuhan03/code/goodcoder/main.cpp
 
-# External object files for target parser
-parser_EXTERNAL_OBJECTS =
+CMakeFiles/Parser.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parser.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenyuhan03/code/goodcoder/main.cpp > CMakeFiles/Parser.dir/main.cpp.i
 
-parser: CMakeFiles/parser.dir/main.cpp.o
-parser: CMakeFiles/parser.dir/build_in.cpp.o
-parser: CMakeFiles/parser.dir/parser.cpp.o
-parser: CMakeFiles/parser.dir/build.make
-parser: CMakeFiles/parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable parser"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parser.dir/link.txt --verbose=$(VERBOSE)
+CMakeFiles/Parser.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parser.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenyuhan03/code/goodcoder/main.cpp -o CMakeFiles/Parser.dir/main.cpp.s
+
+# Object files for target Parser
+Parser_OBJECTS = \
+"CMakeFiles/Parser.dir/build_in.cpp.o" \
+"CMakeFiles/Parser.dir/parser.cpp.o" \
+"CMakeFiles/Parser.dir/user_type.cpp.o" \
+"CMakeFiles/Parser.dir/main.cpp.o"
+
+# External object files for target Parser
+Parser_EXTERNAL_OBJECTS =
+
+Parser: CMakeFiles/Parser.dir/build_in.cpp.o
+Parser: CMakeFiles/Parser.dir/parser.cpp.o
+Parser: CMakeFiles/Parser.dir/user_type.cpp.o
+Parser: CMakeFiles/Parser.dir/main.cpp.o
+Parser: CMakeFiles/Parser.dir/build.make
+Parser: googletest/libgtest.a
+Parser: CMakeFiles/Parser.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chenyuhan03/code/goodcoder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Parser"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/parser.dir/build: parser
+CMakeFiles/Parser.dir/build: Parser
 
-.PHONY : CMakeFiles/parser.dir/build
+.PHONY : CMakeFiles/Parser.dir/build
 
-CMakeFiles/parser.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/parser.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/parser.dir/clean
+CMakeFiles/Parser.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/Parser.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/Parser.dir/clean
 
-CMakeFiles/parser.dir/depend:
-	cd /home/cyh/CLionProjects/parser/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyh/CLionProjects/parser /home/cyh/CLionProjects/parser /home/cyh/CLionProjects/parser/cmake-build-debug /home/cyh/CLionProjects/parser/cmake-build-debug /home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles/parser.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/parser.dir/depend
+CMakeFiles/Parser.dir/depend:
+	cd /Users/chenyuhan03/code/goodcoder/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chenyuhan03/code/goodcoder /Users/chenyuhan03/code/goodcoder /Users/chenyuhan03/code/goodcoder/cmake-build-debug /Users/chenyuhan03/code/goodcoder/cmake-build-debug /Users/chenyuhan03/code/goodcoder/cmake-build-debug/CMakeFiles/Parser.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/Parser.dir/depend
 

@@ -26,7 +26,7 @@ namespace  parser {
 
         void set_val(char *t_name, char *t_sex, int t_age);
 
-        bool parser_colume(const char *str);
+        //bool parser_colume(const char *str);
 
     private:
         char *name;

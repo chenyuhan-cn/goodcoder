@@ -8,129 +8,125 @@
 		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest"/>
+				<Option working_dir="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest"/>
+				<Option output="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/cyh/CLionProjects/parser/googletest/include"/>
-					<Add directory="/home/cyh/CLionProjects/parser/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Users/chenyuhan03/code/goodcoder/googletest/include"/>
+					<Add directory="/Users/chenyuhan03/code/goodcoder/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest"/>
+				<Option output="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/cyh/CLionProjects/parser/googletest/include"/>
-					<Add directory="/home/cyh/CLionProjects/parser/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Users/chenyuhan03/code/goodcoder/googletest/include"/>
+					<Add directory="/Users/chenyuhan03/code/goodcoder/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest"/>
+				<Option output="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/cyh/CLionProjects/parser/googletest/include"/>
-					<Add directory="/home/cyh/CLionProjects/parser/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Users/chenyuhan03/code/goodcoder/googletest/include"/>
+					<Add directory="/Users/chenyuhan03/code/goodcoder/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cyh/CLionProjects/parser/cmake-build-debug/googletest"/>
+				<Option output="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/cyh/CLionProjects/parser/googletest/include"/>
-					<Add directory="/home/cyh/CLionProjects/parser/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Users/chenyuhan03/code/goodcoder/googletest/include"/>
+					<Add directory="/Users/chenyuhan03/code/goodcoder/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenyuhan03/code/goodcoder/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cyh/CLionProjects/parser/googletest/src/gtest-all.cc">
+		<Unit filename="/Users/chenyuhan03/code/goodcoder/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/cyh/CLionProjects/parser/googletest/src/gtest_main.cc">
+		<Unit filename="/Users/chenyuhan03/code/goodcoder/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/cyh/CLionProjects/parser/CMakeLists.txt">
+		<Unit filename="/Users/chenyuhan03/code/goodcoder/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/cyh/CLionProjects/parser/googletest/CMakeLists.txt">
+		<Unit filename="/Users/chenyuhan03/code/goodcoder/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\googletest\"/>
 		</Unit>
-		<Unit filename="/home/cyh/CLionProjects/parser/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/Users/chenyuhan03/code/goodcoder/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\googletest\cmake\"/>
 		</Unit>
 	</Project>

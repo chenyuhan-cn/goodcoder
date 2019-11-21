@@ -10,6 +10,6 @@ include_directories(./googletest/include)
 set(LIBRARIES
         gtest
         pthread)
-add_executable(Parser  build_in.h build_in.cpp parser.h parser.cpp user_type.h user_type.cpp main.cpp)
+add_executable(Parser  user_interface.h build_in.h build_in.cpp parser.h parser.cpp user_type.h user_type.cpp main.cpp)
 
 target_link_libraries(Parser ${LIBRARIES})
