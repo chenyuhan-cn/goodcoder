@@ -1,0 +1,15 @@
+/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles/Parser.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles/install/local.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/CMakeFiles/install.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/install/strip.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/install/local.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/edit_cache.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/gtest_main.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/list_install_components.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/gtest.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/rebuild_cache.dir
+/home/cyh/CLionProjects/parser/cmake-build-debug/googletest/CMakeFiles/install.dir
