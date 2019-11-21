@@ -1,10 +1,10 @@
 /Users/chenyuhan03/code/goodcoder/build/CMakeFiles/install/local.dir
-/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/rebuild_cache.dir
-/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/edit_cache.dir
 /Users/chenyuhan03/code/goodcoder/build/CMakeFiles/install/strip.dir
 /Users/chenyuhan03/code/goodcoder/build/CMakeFiles/install.dir
 /Users/chenyuhan03/code/goodcoder/build/CMakeFiles/list_install_components.dir
-/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/Parser.dir
+/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/rebuild_cache.dir
+/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/edit_cache.dir
+/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/demo.dir
 /Users/chenyuhan03/code/goodcoder/build/googletest/CMakeFiles/install/local.dir
 /Users/chenyuhan03/code/goodcoder/build/googletest/CMakeFiles/list_install_components.dir
 /Users/chenyuhan03/code/goodcoder/build/googletest/CMakeFiles/rebuild_cache.dir

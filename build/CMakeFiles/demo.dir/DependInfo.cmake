@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/chenyuhan03/code/goodcoder/build_in.cpp" "/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/Parser.dir/build_in.cpp.o"
-  "/Users/chenyuhan03/code/goodcoder/main.cpp" "/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/Parser.dir/main.cpp.o"
-  "/Users/chenyuhan03/code/goodcoder/parser.cpp" "/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/Parser.dir/parser.cpp.o"
-  "/Users/chenyuhan03/code/goodcoder/user_type.cpp" "/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/Parser.dir/user_type.cpp.o"
+  "/Users/chenyuhan03/code/goodcoder/build_in.cpp" "/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/demo.dir/build_in.cpp.o"
+  "/Users/chenyuhan03/code/goodcoder/main.cpp" "/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/demo.dir/main.cpp.o"
+  "/Users/chenyuhan03/code/goodcoder/parser.cpp" "/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/demo.dir/parser.cpp.o"
+  "/Users/chenyuhan03/code/goodcoder/user_type.cpp" "/Users/chenyuhan03/code/goodcoder/build/CMakeFiles/demo.dir/user_type.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

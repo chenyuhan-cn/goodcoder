@@ -149,7 +149,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Parser
+CMAKE_PROJECT_NAME:STATIC=demo
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ranlib
@@ -217,10 +217,10 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
 //Value Computed by CMake
-Parser_BINARY_DIR:STATIC=/Users/chenyuhan03/code/goodcoder/build
+demo_BINARY_DIR:STATIC=/Users/chenyuhan03/code/goodcoder/build
 
 //Value Computed by CMake
-Parser_SOURCE_DIR:STATIC=/Users/chenyuhan03/code/goodcoder
+demo_SOURCE_DIR:STATIC=/Users/chenyuhan03/code/goodcoder
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/Users/chenyuhan03/code/goodcoder/build/googletest

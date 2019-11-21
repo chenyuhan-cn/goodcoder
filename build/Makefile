@@ -68,28 +68,6 @@ install/local/fast: preinstall/fast
 	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CMake.app/Contents/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -124,6 +102,28 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CMake.app/Contents/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chenyuhan03/code/goodcoder/build/CMakeFiles /Users/chenyuhan03/code/goodcoder/build/CMakeFiles/progress.marks
@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Parser
+# Target rules for targets named demo
 
 # Build rule for target.
-Parser: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Parser
-.PHONY : Parser
+demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo
+.PHONY : demo
 
 # fast build rule for target.
-Parser/fast:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/build
-.PHONY : Parser/fast
+demo/fast:
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
+.PHONY : demo/fast
 
 #=============================================================================
 # Target rules for targets named gtest_main
@@ -201,7 +201,7 @@ build_in.o: build_in.cpp.o
 
 # target to build an object file
 build_in.cpp.o:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/build_in.cpp.o
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build_in.cpp.o
 .PHONY : build_in.cpp.o
 
 build_in.i: build_in.cpp.i
@@ -210,7 +210,7 @@ build_in.i: build_in.cpp.i
 
 # target to preprocess a source file
 build_in.cpp.i:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/build_in.cpp.i
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build_in.cpp.i
 .PHONY : build_in.cpp.i
 
 build_in.s: build_in.cpp.s
@@ -219,7 +219,7 @@ build_in.s: build_in.cpp.s
 
 # target to generate assembly for a file
 build_in.cpp.s:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/build_in.cpp.s
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build_in.cpp.s
 .PHONY : build_in.cpp.s
 
 main.o: main.cpp.o
@@ -228,7 +228,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -237,7 +237,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -246,7 +246,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 parser.o: parser.cpp.o
@@ -255,7 +255,7 @@ parser.o: parser.cpp.o
 
 # target to build an object file
 parser.cpp.o:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/parser.cpp.o
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/parser.cpp.o
 .PHONY : parser.cpp.o
 
 parser.i: parser.cpp.i
@@ -264,7 +264,7 @@ parser.i: parser.cpp.i
 
 # target to preprocess a source file
 parser.cpp.i:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/parser.cpp.i
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/parser.cpp.i
 .PHONY : parser.cpp.i
 
 parser.s: parser.cpp.s
@@ -273,7 +273,7 @@ parser.s: parser.cpp.s
 
 # target to generate assembly for a file
 parser.cpp.s:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/parser.cpp.s
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/parser.cpp.s
 .PHONY : parser.cpp.s
 
 user_type.o: user_type.cpp.o
@@ -282,7 +282,7 @@ user_type.o: user_type.cpp.o
 
 # target to build an object file
 user_type.cpp.o:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/user_type.cpp.o
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/user_type.cpp.o
 .PHONY : user_type.cpp.o
 
 user_type.i: user_type.cpp.i
@@ -291,7 +291,7 @@ user_type.i: user_type.cpp.i
 
 # target to preprocess a source file
 user_type.cpp.i:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/user_type.cpp.i
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/user_type.cpp.i
 .PHONY : user_type.cpp.i
 
 user_type.s: user_type.cpp.s
@@ -300,7 +300,7 @@ user_type.s: user_type.cpp.s
 
 # target to generate assembly for a file
 user_type.cpp.s:
-	$(MAKE) -f CMakeFiles/Parser.dir/build.make CMakeFiles/Parser.dir/user_type.cpp.s
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/user_type.cpp.s
 .PHONY : user_type.cpp.s
 
 # Help Target
@@ -310,12 +310,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/local"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... Parser"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... demo"
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... build_in.o"

@@ -278,6 +278,12 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/Users/chenyuhan03/code/goodcoder/build_in.cpp
+build_in.h
+/Users/chenyuhan03/code/goodcoder/build_in.h
+iostream
+-
+
 /Users/chenyuhan03/code/goodcoder/build_in.h
 user_interface.h
 /Users/chenyuhan03/code/goodcoder/user_interface.h
@@ -302,11 +308,19 @@ user_type.h
 gtest/gtest.h
 /Users/chenyuhan03/code/goodcoder/gtest/gtest.h
 
+/Users/chenyuhan03/code/goodcoder/parser.cpp
+parser.h
+/Users/chenyuhan03/code/goodcoder/parser.h
+
 /Users/chenyuhan03/code/goodcoder/parser.h
 build_in.h
 /Users/chenyuhan03/code/goodcoder/build_in.h
 
 /Users/chenyuhan03/code/goodcoder/user_interface.h
+
+/Users/chenyuhan03/code/goodcoder/user_type.cpp
+user_type.h
+/Users/chenyuhan03/code/goodcoder/user_type.h
 
 /Users/chenyuhan03/code/goodcoder/user_type.h
 cstdio

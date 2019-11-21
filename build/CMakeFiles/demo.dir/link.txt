@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/demo.dir/build_in.cpp.o CMakeFiles/demo.dir/parser.cpp.o CMakeFiles/demo.dir/user_type.cpp.o CMakeFiles/demo.dir/main.cpp.o  -o demo  googletest/libgtest.a -lpthread 
