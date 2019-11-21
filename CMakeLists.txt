@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(Parser)
+project(demo)
 
 set(CMAKE_CXX_STANDARD 11)
 # 编译google test，会在当前目录生成libtest.a动态库
@@ -10,6 +10,6 @@ include_directories(./googletest/include)
 set(LIBRARIES
         gtest
         pthread)
-add_executable(Parser  user_interface.h build_in.h build_in.cpp parser.h parser.cpp user_type.h user_type.cpp main.cpp)
+add_executable(demo  user_interface.h build_in.h build_in.cpp parser.h parser.cpp user_type.h user_type.cpp main.cpp)
 
-target_link_libraries(Parser ${LIBRARIES})
+target_link_libraries(demo ${LIBRARIES})
